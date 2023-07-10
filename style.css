@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  width: 100%;
+  background-color: #f3c61f;
+  padding: 27px 0px 28px 40px;
+}
+
+header img {
+  width: 202px;
+  height: 63px;
+  flex-shrink: 0;
+  background: url(<path-to-image>), 100% / cover no-repeat;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+#text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 678px;
+  height: 650px;
+  background: #514988;
+  text-align: center;
+  color: #ffffff;
+}
+
+#text-section div {
+  background: #514988;
+}
+
+#text-section h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 85.07px;
+  text-align: center;
+  color: #f3c61f;
+  background: #514988;
+}
+
+#text-section span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36.46px;
+  text-align: center;
+  background: #514988;
+}
+
+#text-section p {
+  width: 450px;
+  height: 400px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35.24px;
+  text-align: center;
+  background: #514988;
+}
+
+#section-video {
+  display: flex;
+  flex-direction: column;
+}
+
+.timer {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column: auto;
+  padding: 0px 30px;
+}
+
+.timer div {
+  margin-top: 20px;
+  color: #514988;
+}
+
+.timer div h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+#section-video h3 {
+  color: #e33881;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0px 30px;
+}
+
+footer {
+  width: 100%;
+  padding: 15px 89px;
+}
+
+footer h3 {
+  color: #f3c61f;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#div-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px 20px 5px 20px;
+}
+
+#div-footer img {
+  width: 190px;
+  height: 190px;
+}
+
+#div-footer button {
+  width: 450px;
+  height: 148px;
+  flex-shrink: 0;
+  margin-left: 107px;
+  border-radius: 20px;
+  background: #514988;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#div-footer button:hover {
+  cursor: pointer;
+  color: #f3c61f;
+}
+
+.card-highlight {
+  box-shadow: 10px 10px 10px 10px grey;
+}
