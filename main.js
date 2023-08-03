@@ -1,10 +1,3 @@
-// const addRedBorder = (id) => {
-//     element = document.querySelector("#" + id)
-//     element.style.border = "5px solid red"
-// }
-
-// addRedBorder("quinta");
-
 const ingressos = [];
 
 const highlightCard = (selector) => {
